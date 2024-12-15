@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="16" cy="16" r="15" fill="#2ecc71" opacity="0.1"/>
+    
+    <!-- Recycling Arrows -->
+    <g transform="translate(16,16) scale(0.13)">
+        <!-- First Arrow -->
+        <path d="M-40,-20 L-20,-50 L0,-20 L-10,-20 Q0,0 20,-10 L15,5 Q-15,20 -30,-10 L-40,-20" 
+              fill="#2ecc71" transform="rotate(0)"/>
+        <!-- Second Arrow -->
+        <path d="M-40,-20 L-20,-50 L0,-20 L-10,-20 Q0,0 20,-10 L15,5 Q-15,20 -30,-10 L-40,-20" 
+              fill="#2ecc71" transform="rotate(120)"/>
+        <!-- Third Arrow -->
+        <path d="M-40,-20 L-20,-50 L0,-20 L-10,-20 Q0,0 20,-10 L15,5 Q-15,20 -30,-10 L-40,-20" 
+              fill="#2ecc71" transform="rotate(240)"/>
+    </g>
+
+    <!-- T-Shirt Icon -->
+    <g transform="translate(16,16) scale(0.06)">
+        <path d="M0,-50 L30,-50 L50,-20 L30,-10 L30,50 L-30,50 L-30,-10 L-50,-20 L-30,-50 Z" 
+              fill="#27ae60" stroke="#2ecc71" stroke-width="5"/>
+    </g>
+</svg>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="150" cy="150" r="140" fill="#f0f9f4" class="bg-circle"/>
+    
+    <!-- Anime Girl -->
+    <g class="anime-girl">
+        <!-- Hair -->
+        <path d="M120 100 Q150 80 180 100 Q200 120 190 150 Q180 170 150 180 Q120 170 110 150 Q100 120 120 100" 
+              fill="#6d4c41" class="hair"/>
+        
+        <!-- Face -->
+        <circle cx="150" cy="130" r="30" fill="#ffccbc" class="face"/>
+        
+        <!-- Eyes -->
+        <g class="eyes">
+            <circle cx="140" cy="125" r="3" fill="#2c3e50"/>
+            <circle cx="160" cy="125" r="3" fill="#2c3e50"/>
+            <!-- Kawaii Sparkles -->
+            <circle cx="142" cy="123" r="1" fill="white"/>
+            <circle cx="162" cy="123" r="1" fill="white"/>
+        </g>
+        
+        <!-- Smile -->
+        <path d="M145 135 Q150 140 155 135" stroke="#2c3e50" fill="none" stroke-width="2"/>
+    </g>
+
+    <!-- Sewing Elements -->
+    <g class="sewing-elements">
+        <!-- Needle and Thread -->
+        <g class="needle-thread">
+            <path d="M100 180 Q150 160 200 180" stroke="#2ecc71" fill="none" stroke-width="3" class="thread">
+                <animate attributeName="d" 
+                         dur="3s"
+                         values="M100 180 Q150 160 200 180;
+                                M100 180 Q150 200 200 180;
+                                M100 180 Q150 160 200 180"
+                         repeatCount="indefinite"/>
+            </path>
+            <circle cx="200" cy="180" r="5" fill="#95a5a6" class="needle"/>
+        </g>
+
+        <!-- Buttons -->
+        <g class="buttons">
+            <circle cx="130" cy="200" r="8" fill="#e74c3c" class="button">
+                <animate attributeName="r"
+                         values="8;9;8"
+                         dur="1s"
+                         repeatCount="indefinite"/>
+            </circle>
+            <circle cx="170" cy="200" r="8" fill="#3498db" class="button">
+                <animate attributeName="r"
+                         values="8;9;8"
+                         dur="1s"
+                         repeatCount="indefinite"
+                         begin="0.3s"/>
+            </circle>
+        </g>
+    </g>
+
+    <!-- Sparkles -->
+    <g class="sparkles">
+        <path d="M80 120 L85 125 L80 130 L75 125 Z" fill="#f1c40f">
+            <animate attributeName="opacity"
+                     values="0;1;0"
+                     dur="2s"
+                     repeatCount="indefinite"/>
+        </path>
+        <path d="M220 120 L225 125 L220 130 L215 125 Z" fill="#f1c40f">
+            <animate attributeName="opacity"
+                     values="0;1;0"
+                     dur="2s"
+                     repeatCount="indefinite"
+                     begin="0.5s"/>
+        </path>
+        <path d="M150 220 L155 225 L150 230 L145 225 Z" fill="#f1c40f">
+            <animate attributeName="opacity"
+                     values="0;1;0"
+                     dur="2s"
+                     repeatCount="indefinite"
+                     begin="1s"/>
+        </path>
+    </g>
+
+    <!-- Text -->
+    <text x="150" y="260" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="16" font-weight="bold">
+        Repair & Maintain
+    </text>
+</svg>
